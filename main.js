@@ -23,39 +23,41 @@ bot.catch(err => {
   console.error("[Exception]", err);
 });
 
-bot.use((ctx, next) => {
-  try {
-    if (ctx.update.inline_query && ctx.update.inline_query.query) {
-      const { inline_query } = ctx.update;
-      const name = inline_query.from.username
-        ? `@${inline_query.from.username}`
-        : inline_query.from.first_name;
-      console.info("[inline]", name, inline_query.query);
+if (process.env.NODE_ENV === 'development') {
+  bot.use((ctx, next) => {
+    try {
+      if (ctx.update.inline_query && ctx.update.inline_query.query) {
+        const { inline_query } = ctx.update;
+        const name = inline_query.from.username
+          ? `@${inline_query.from.username}`
+          : inline_query.from.first_name;
+        console.info("[inline]", name, inline_query.query);
+      }
+  
+      if (
+        ctx.update.message &&
+        ctx.update.message.text &&
+        ctx.update.message.text[0] === "/"
+      ) {
+        const { message } = ctx.update;
+        const maybeTitle =
+          message.chat.type === "group" || message.chat.type === "supergroup"
+            ? message.chat.username
+              ? `[@${message.chat.username}]`
+              : `[${message.chat.title}]`
+            : "";
+        const name = message.from.username
+          ? `@${message.from.username}`
+          : message.from.first_name;
+        console.info("[command]", ...[maybeTitle], name, message.text);
+      }
+    } catch (err) {
+      console.error(err);
     }
-
-    if (
-      ctx.update.message &&
-      ctx.update.message.text &&
-      ctx.update.message.text[0] === "/"
-    ) {
-      const { message } = ctx.update;
-      const maybeTitle =
-        message.chat.type === "group" || message.chat.type === "supergroup"
-          ? message.chat.username
-            ? `[@${message.chat.username}]`
-            : `[${message.chat.title}]`
-          : "";
-      const name = message.from.username
-        ? `@${message.from.username}`
-        : message.from.first_name;
-      console.info("[command]", ...[maybeTitle], name, message.text);
-    }
-  } catch (err) {
-    console.error(err);
-  }
-
-  return next();
-});
+  
+    return next();
+  });
+}
 
 bot.command("start", ctx => {
   ctx.reply(
