@@ -86,7 +86,7 @@ bot.command("respawn", ctx => {
   });
 });
 
-bot.command("materialRoutes", ctx => {
+bot.command("materialroutes", ctx => {
   const text = `[Source](https://www.reddit.com/r/Genshin_Impact/comments/j9q810/i_made_a_little_character_ascension_material)`;
   ctx.replyWithPhoto("https://i.imgur.com/udQD7pD.jpeg", {
     caption: text,
@@ -104,7 +104,7 @@ bot.command("weapons", ctx => {
   });
 });
 
-bot.command("charExp", ctx => {
+bot.command("charexp", ctx => {
   const text = `[Source](https://www.reddit.com/r/Genshin_Impact/comments/j9942t/exp_requirements_per_ascensionphase/)`;
   ctx.replyWithPhoto("https://i.imgur.com/gE0YL3Q.png", {
     caption: text,
@@ -113,7 +113,7 @@ bot.command("charExp", ctx => {
   });
 });
 
-bot.command("talentCost", ctx => {
+bot.command("talentcost", ctx => {
   const text = `[Source](https://www.reddit.com/r/Genshin_Impact/comments/jf8awf/talent_ascension_grind_cheat_sheet/)`;
   ctx.replyWithPhoto("https://i.imgur.com/m87oXqx.jpeg", {
     caption: text,
@@ -122,7 +122,7 @@ bot.command("talentCost", ctx => {
   });
 });
 
-bot.command("talentCost2", ctx => {
+bot.command("talentcost2", ctx => {
   const text = `[Source](https://www.reddit.com/r/Genshin_Impact/comments/jhtnni/table_of_material_types_for_leveling_6_talents/)`;
   ctx.replyWithPhoto("https://i.imgur.com/g3NAhtf.png", {
     caption: text,
@@ -140,7 +140,7 @@ bot.command("dishes", ctx => {
   });
 });
 
-bot.command("artifactStats", ctx => {
+bot.command("artifactstats", ctx => {
   const text = `[Source](https://www.reddit.com/r/Genshin_Impact/comments/jcz6rg/artifact_stats_handbook/)`;
   ctx.replyWithPhoto("https://i.imgur.com/9DcOeYb.png", {
     caption: text,
@@ -167,7 +167,7 @@ bot.command("mobs", ctx => {
   });
 });
 
-bot.command("ascensionItems", ctx => {
+bot.command("ascensionitems", ctx => {
   const text = `[Biiiig image ⚓️](https://i.imgur.com/2utiAJY.jpeg)`;
   ctx.reply(text, {
     parse_mode: "markdown",
