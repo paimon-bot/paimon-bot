@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "got": "^9.6.0",
+    "lowdb": "^1.0.0",
+    "nodemon": "^1.19.1",
+    "pm2": "^3.5.1",
+    "string-strip-html": "^4.0.29",
+    "telegraf": "^3.32.0"
+  },
+  "name": "bbchannel",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {
+    "csvtojson": "^2.0.10"
+  },
+  "scripts": {
+    "dev": "nodemon --inspect main.js --ignore db.json",
+    "start": "NODE_ENV=production pm2 --env production start ecosystem.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
