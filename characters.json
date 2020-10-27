@@ -109,13 +109,13 @@
   },
   {
     "name": "Traveler (Anemo)",
-    "key": "travelerAnemo",
+    "key": "traveleranemo",
     "page": "https://genshin.gg/characters/Traveler%28Anemo%29",
     "image": ""
   },
   {
     "name": "Traveler (Geo)",
-    "key": "travelerGeo",
+    "key": "travelergeo",
     "page": "https://genshin.gg/characters/Traveler%28Geo%29",
     "image": ""
   },
