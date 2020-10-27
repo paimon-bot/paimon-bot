@@ -175,6 +175,14 @@ bot.command("ascensionItems", ctx => {
   });
 });
 
+bot.command("quests", ctx => {
+  const text = `[All hidden quest location](https://www.reddit.com/r/Genshin_Impact/comments/j5lx3c/all_hidden_quest_location/)`;
+  ctx.reply(text, {
+    parse_mode: "markdown",
+    reply_to_message_id: ctx.update.message.message_id
+  });
+});
+
 for (const char of characters) {
   bot.command(char.key, ctx => {
     const text = 
