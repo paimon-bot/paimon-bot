@@ -1,7 +1,7 @@
 require('dotenv').config()
 const Telegraf = require("telegraf");
 const low = require("lowdb");
-const got = require("got");
+const characters = require("./characters.json");
 const stripHtml = require("string-strip-html");
 const FileSync = require("lowdb/adapters/FileSync");
 
@@ -174,6 +174,26 @@ bot.command("ascensionItems", ctx => {
     reply_to_message_id: ctx.update.message.message_id
   });
 });
+
+for (const char of characters) {
+  bot.command(char.key, ctx => {
+    const text = 
+`[${char.name}](${char.page})`;
+
+    if (!char.image) {
+      return ctx.reply(text, {
+        parse_mode: "markdown",
+        reply_to_message_id: ctx.update.message.message_id
+      });
+    }
+
+    return ctx.replyWithPhoto(char.image, {
+      caption: text,
+      parse_mode: "markdown",
+      reply_to_message_id: ctx.update.message.message_id
+    });
+  })
+}
 
 bot.command("help", ctx => {
   const text = `

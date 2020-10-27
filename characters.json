@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Amber",
+    "key": "amber",
+    "page": "https://genshin.gg/characters/Amber",
+    "image": "https://i.imgur.com/WsASywL.jpg"
+  },
+  {
+    "name": "Barbara",
+    "key": "barbara",
+    "page": "https://genshin.gg/characters/Barbara",
+    "image": "https://i.imgur.com/MbH6gTV.jpg"
+  },
+  {
+    "name": "Beidou",
+    "key": "beidou",
+    "page": "https://genshin.gg/characters/Beidou",
+    "image": "https://i.imgur.com/raU8u3P.jpg"
+  },
+  {
+    "name": "Bennett",
+    "key": "bennett",
+    "page": "https://genshin.gg/characters/Bennett",
+    "image": "https://i.imgur.com/tyCG3Hu.jpg"
+  },
+  {
+    "name": "Chongyun",
+    "key": "chongyun",
+    "page": "https://genshin.gg/characters/Chongyun",
+    "image": "https://i.imgur.com/TmI0xxQ.jpg"
+  },
+  {
+    "name": "Diluc",
+    "key": "diluc",
+    "page": "https://genshin.gg/characters/Diluc",
+    "image": "https://i.imgur.com/9YcTZrd.jpg"
+  },
+  {
+    "name": "Fischl",
+    "key": "fischl",
+    "page": "https://genshin.gg/characters/Fischl",
+    "image": "https://i.imgur.com/CbDYQui.jpg"
+  },
+  {
+    "name": "Jean",
+    "key": "jean",
+    "page": "https://genshin.gg/characters/Jean",
+    "image": "https://i.imgur.com/gAKDnVN.jpg"
+  },
+  {
+    "name": "Kaeya",
+    "key": "kaeya",
+    "page": "https://genshin.gg/characters/Kaeya",
+    "image": "https://i.imgur.com/x1sPmG7.jpg"
+  },
+  {
+    "name": "Keqing",
+    "key": "keqing",
+    "page": "https://genshin.gg/characters/Keqing",
+    "image": "https://i.imgur.com/TAV9yMC.jpg"
+  },
+  {
+    "name": "Klee",
+    "key": "klee",
+    "page": "https://genshin.gg/characters/Klee",
+    "image": "https://i.imgur.com/tvG6qiW.jpg"
+  },
+  {
+    "name": "Lisa",
+    "key": "lisa",
+    "page": "https://genshin.gg/characters/Lisa",
+    "image": "https://i.imgur.com/0lsSW91.jpg"
+  },
+  {
+    "name": "Mona",
+    "key": "mona",
+    "page": "https://genshin.gg/characters/Mona",
+    "image": "https://i.imgur.com/lIrWph4.jpg"
+  },
+  {
+    "name": "Ningguang",
+    "key": "ningguang",
+    "page": "https://genshin.gg/characters/Ningguang",
+    "image": "https://i.imgur.com/sHJPIvb.jpg"
+  },
+  {
+    "name": "Noelle",
+    "key": "noelle",
+    "page": "https://genshin.gg/characters/Noelle",
+    "image": "https://i.imgur.com/KFw2sf6.jpg"
+  },
+  {
+    "name": "Qiqi",
+    "key": "qiqi",
+    "page": "https://genshin.gg/characters/Qiqi",
+    "image": "https://i.imgur.com/Ub7iglQ.jpg"
+  },
+  {
+    "name": "Razor",
+    "key": "razor",
+    "page": "https://genshin.gg/characters/Razor",
+    "image": "https://i.imgur.com/hOHT8Ue.jpg"
+  },
+  {
+    "name": "Sucrose",
+    "key": "sucrose",
+    "page": "https://genshin.gg/characters/Sucrose",
+    "image": "https://i.imgur.com/kFB9T0V.jpg"
+  },
+  {
+    "name": "Traveler (Anemo)",
+    "key": "travelerAnemo",
+    "page": "https://genshin.gg/characters/Traveler%28Anemo%29",
+    "image": ""
+  },
+  {
+    "name": "Traveler (Geo)",
+    "key": "travelerGeo",
+    "page": "https://genshin.gg/characters/Traveler%28Geo%29",
+    "image": ""
+  },
+  {
+    "name": "Venti",
+    "key": "venti",
+    "page": "https://genshin.gg/characters/Venti",
+    "image": "https://i.imgur.com/inp9Di1.jpg"
+  },
+  {
+    "name": "Xiangling",
+    "key": "xiangling",
+    "page": "https://genshin.gg/characters/Xiangling",
+    "image": "https://i.imgur.com/aTv2tQZ.jpg"
+  },
+  {
+    "name": "Xiao",
+    "key": "xiao",
+    "page": "https://genshin.gg/characters/Xiao",
+    "image": "https://i.imgur.com/shsucjb.jpg"
+  },
+  {
+    "name": "Xingqiu",
+    "key": "xingqiu",
+    "page": "https://genshin.gg/characters/Xingqiu",
+    "image": "https://i.imgur.com/6R82xYE.jpg"
+  }
+]
